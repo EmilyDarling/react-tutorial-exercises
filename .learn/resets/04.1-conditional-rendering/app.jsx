@@ -4,18 +4,7 @@ import PropTypes from "prop-types";
 
 const Alert = props => {
 	// Your component here
-	return({
-		props.color == "red" ? (
-			<div class="alert alert-danger" role="alert">
-				{props.text}
-			</div>)
-		: props.color == "yellow" ? (
-				<div class="alert alert-warning" role="alert">
-					{props.text}
-				</div>
-		): null}	
 
-);
 };
 Alert.propTypes = {
 	color: PropTypes.string,
